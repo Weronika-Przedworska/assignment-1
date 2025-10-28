@@ -42,3 +42,11 @@ button {
     background-color: #ffffff;
 
 }
+
+#next-button{
+  background-color:pink;
+    color:black;
+    text-align: center;  
+    width: 20%;
+    padding: 10px;
+}
