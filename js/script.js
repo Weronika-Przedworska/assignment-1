@@ -70,6 +70,12 @@ function nextQuestion() {
   }
 }
 
+document.getElementById("next-button").
+addEventListener("click", function() {
+nextQuestion();
+});
+
+
 function showScore() {
   questionElement.textContent = `You scored ${score} out of ${questions.length}!`;
   optionsElements.forEach(button => (button.style.display = "none"));

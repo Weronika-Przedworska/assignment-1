@@ -50,3 +50,15 @@ button {
     width: 20%;
     padding: 10px;
 }
+
+.correct{
+  background-color:rgb(30, 188, 146);
+    color:black;
+   
+}
+
+.wrong{
+  background-color:rgb(227, 47, 77);
+    color:black;
+
+}
